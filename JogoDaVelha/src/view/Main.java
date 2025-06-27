@@ -62,6 +62,7 @@ public class Main implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         String [] botoes  ={ "X", " O"};
         int opcao = 0;
+        // lógica
         if (e.getSource() == bt11) {
             opcao = JOptionPane.showOptionDialog(null, "Escolha uma opção", "JOGO DA VELHA", 0, 3, null, botoes, 0);
             bt11.setText(verificaOpcao(opcao));
