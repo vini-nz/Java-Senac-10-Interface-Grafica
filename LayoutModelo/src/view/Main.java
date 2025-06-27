@@ -15,7 +15,7 @@ public class Main implements ActionListener {
         janela.setSize(400, 150);
         janela.setLocationRelativeTo(null);
 
-        // barra de menu
+        // barra de menuUUU
         JMenuBar jmBar = new JMenuBar();
         jmBar.setBackground(new Color(147, 92, 56));
         janela.setJMenuBar(jmBar);
