@@ -18,7 +18,7 @@ public class Main implements ActionListener {
     String [] genero = {" --Selecione uma opção--", "Masculino", "Feminino", "Outros"};
     JComboBox cbxGenero;
 
-    // construtor
+    // construtor AA
     public Main() {
         janela = new JFrame("Cadastro de usúario");
         janela.setSize(300, 420); // tamanho janela
